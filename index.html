@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Shizuru&display=swap" rel="stylesheet"><style>
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', ariel;
+  }
+
+body {
+  font-family: Arial;
+
+  
+  padding-right: 40px;
+  padding-left: 40px;
+
+  background-image: url("https://t3.ftcdn.net/jpg/03/34/03/84/360_F_334038427_gzVtYwoAr7P57W42205VAnXa9B8ZSZCz.jpg") ;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;	
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: rgb(192,192,192);
+     border-radius: 20px;
+	 position: relative;
+  margin: 0 auto; 
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.imageorlink {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.card {
+   background-color: 	rgb(211,211,211);
+   padding: 20px;
+   margin-top: 20px;
+   border-radius: 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+
+}
+
+a {
+color: black;
+}
+#downimage {
+	width: 100%;	
+	object-fit: cover;
+	height: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+  h1 {
+	font-size: 30px;
+	font-weight: 400;
+  }
+}
+</style>
+<title>LANDING PAGE</title>
+</head>
+<body>
+
+<div class="header">
+  <h1 style = "font-family: 'Righteous', cursive;
+">AJ BLOGGERS<i style = "color: orange;">.</i></h1>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>What is blogging?</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="imageorlink" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>Why choose us?</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="imageorlink" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+	<div class="card">
+      <h2>What is blogging?</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="imageorlink" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+	
+  </div>
+  
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Us</h2>
+      <div class="imageorlink" style="height:100px;">Image - i could not find any on the website i use :|</div>
+      <p>Some text about us in culpa qui officia deserunt mollit anim..</p>
+    </div>	
+    <div class="card">
+      <h3>Browse</h3>
+      <div class="imageorlink"><a href= "#">Trending</a></div><br>
+      <div class="imageorlink"><a href= "#">Suggested blogs</a></div><br>
+      <div class="imageorlink"><a href= "#">Start your writing career</a></div>
+    </div>
+
+	 <div class="card">
+      <h3>Advertisement</h3>
+      <div class="imageorlink"><a href= "#">Banner</a></div><br>
+      <div class="imageorlink"><a href= "#">Tagline,intro</a></div><br>
+      <div class="imageorlink"><a href= "#">LINK</a></div>
+	  
+    </div>
+    <div class="card">
+      <h3>Want more?</h3>
+      <div class="imageorlink"><a href= "#">Sign in</a></div><br>
+      <div class="imageorlink"><a href= "#">Sign up</a></div><br>
+	  
+    </div>
+	    <div class="card">
+      <h3>Follow Us</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+<div class="card" style = "width: 100%;">
+     <img src= "https://image.shutterstock.com/image-photo/wide-view-image-businessman-programming-260nw-1238474959.jpg" alt= "Just a image, ur iternet is bad" id = "downimage"/>
+ </div>
+
+<div class="footer">
+  <h2><sub>&copy AJ Bloggers</sub></h2>
+</div>
+
+</body>
+</html>
